@@ -1,0 +1,131 @@
+/* Внесены изменения
+*/
+* {
+	margin: 0;
+	padding: 0;
+	
+	margin: 0;
+	padding: 0;
+	
+	margin: 0;
+	padding: 0;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+}
+
+#center{
+margin: 0 auto;
+width:241px;
+width:700px;
+padding-top:50px;
+
+}
+
+.inline{
+float:left;
+}
+
+#wrapper_time_server{
+width:100%;
+float:left;
+}
+
+#time_server{
+float:right;
+margin-top:50px;
+}
+
+.v0{
+background:red;
+border-radius:5px;
+
+margin-left:10px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ font-family:Arial , Tahoma;
+font-size:14pt;
+width:200px;
+float:left;
+ }
+
+
+.v1{
+background:yellow;
+border-radius:5px;
+
+margin-left:10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+font-family:Arial , Tahoma;
+font-size:14pt;
+width:200px;
+float:left;
+}
+
+.v2{
+background:green;
+border-radius:5px;
+
+margin-left:20px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+font-family:Arial , Tahoma;
+font-size:14pt;
+width:200px;
+float:left;
+}
+
+
+
+
+
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 150px;
+	background: #FFE680;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+float: left;
+width: 1000px;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	height: 100px;
+	background: #BFF08E;
+	clear:both;
+}
